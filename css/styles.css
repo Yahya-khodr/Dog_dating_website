@@ -1,9 +1,14 @@
-
-
 .blue-section {
-    background: #674bff;
+  background: #674bff;
 }
 
 .icon {
-    color: #674bff;
+  color: #674bff;
+}
+
+.feature-element {
+  padding: 4.5%;
+}
+.feature-title {
+   font-weight: bold;
 }
