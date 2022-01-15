@@ -7,6 +7,7 @@
   color: #674bff;
 }
 
+
 .feature-element {
   padding: 4.5%;
 }
@@ -65,3 +66,20 @@
   margin: 3% 2% 5% 0;
 }
 
+
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 15%;
+  border-radius: 125%;
+  margin: 20px;
+}
+.testimonial-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: black;
+}
+.testimonial-subtitle {
+  color: white;
+}
