@@ -1,149 +1,163 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Dog Dating Website</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="css/styles.css" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Dog Dating Website</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
 
+  <body>
+    <section class="blue-section" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">MyApp</a>
 
-</head>
+          <!-- the menu button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria
+            aria-expanded="false"
+            aria-label="toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-<body>
+          <!-- the list of links -->
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-item nav-link" href="#">Contact</a>
+              <a class="nav-item nav-link" href="#">Pricing</a>
+              <a class="nav-item nav-link" href="#">Download</a>
+            </div>
+          </div>
+        </nav>
 
-  <section class="blue-section" id="title">
+        <!-- Title -->
 
-    <!-- Nav Bar -->
+        <div>
+          <h1>Meet dog next door.</h1>
+          <button type="button"><i class="fab fa-apple"></i>Download</button>
+          <button type="button">
+            <i class="fab fa-google-play"></i>Download
+          </button>
+        </div>
+        <div>
+          <img src="images/app.png" />
+        </div>
+      </div>
+    </section>
 
+    <!-- Features -->
 
-    
+    <section class="white-section" id="features">
+      <i class="icon fas fa-check-circle fa-4x"></i>
+      <h3>Feature1</h3>
+      <p>Write soemthing here...</p>
 
-    <!-- Title -->
+      <i class="icon fas fa-bullseye fa-4x"></i>
+      <h3>Feature2</h3>
+      <p>Write soemthing here...</p>
 
-    <div>
-      <h1>Meet dog next door.</h1>
-      <button type="button"><i class="fab fa-google-play"></i>Download</button>
-      <button type="button"><i class="fab fa-apple"></i>giDownload</button>
-    </div>
-    <div>
-      <img src="images/app.png">
-    </div>
+      <i class="icon fas fa-heart fa-4x"></i>
+      <h3>Feature3</h3>
+      <p>Write soemthing here...</p>
+    </section>
 
-  </section>
+    <!-- Testimonials -->
 
+    <section class="blue-section" id="testimonials">
+      <h2>Quote 1. Woof.</h2>
+      <img src="images/dog-img.jpg" />
+      <em>Beirut, Lebanon</em>
 
-  <!-- Features -->
+      <h2>Quote 2. Woof.</h2>
+      <img src="images/dog-img.jpg" />
+      <em>Beirut, Lebanon</em>
+    </section>
 
-  <section class="white-section" id="features">
-    
-    <i class="icon fas fa-check-circle fa-4x"></i>
-    <h3>Feature1</h3>
-    <p>Write soemthing here...</p>
+    <!-- Press -->
 
-    <i class="icon fas fa-bullseye fa-4x"></i>
-    <h3>Feature2</h3>
-    <p>Write soemthing here...</p>
+    <section id="press">
+      <img src="images/mtv-logo.png" />
+      <img src="images/lbci-logo.png" />
+    </section>
 
-    <i class="icon fas fa-heart fa-4x"></i>
-    <h3>Feature3</h3>
-    <p>Write soemthing here...</p>
+    <!-- Pricing -->
 
-  </section>
+    <section class="white-section" id="pricing">
+      <h2>Packages</h2>
+      <p>Something interesting here...</p>
 
+      <h3>Package 1</h3>
+      <h2>Free</h2>
+      <p>5 Matches Per Day</p>
+      <p>10 Messages Per Day</p>
+      <p>Unlimited App Usage</p>
+      <button type="button">Sign Up</button>
 
-  <!-- Testimonials -->
+      <h3>Package 2</h3>
+      <h2>$29 / mo</h2>
+      <p>Unlimited Matches</p>
+      <p>Unlimited Messages</p>
+      <p>Unlimited App Usage</p>
+      <button type="button">Sign Up</button>
 
-  <section class="blue-section" id="testimonials">
+      <h3>Package 3</h3>
+      <h2>$49 / mo</h2>
+      <p>Pirority Listing</p>
+      <p>Unlimited Matches</p>
+      <p>Unlimited Messages</p>
+      <p>Unlimited App Usage</p>
+      <button type="button">Sign Up</button>
+    </section>
 
-    <h2>Quote 1. Woof.</h2>
-    <img src="images/dog-img.jpg">
-    <em>Beirut, Lebanon</em>
+    <!-- Call to Action -->
 
-    <h2>Quote 2. Woof.</h2>
-    <img src="images/dog-img.jpg">
-    <em>Beirut, Lebanon</em>
+    <section class="blue-section" id="cta">
+      <h3>The APP that your log needs.</h3>
+      <button type="button">Download</button>
+      <button type="button">Download</button>
+    </section>
 
-  </section>
+    <!-- Footer -->
 
+    <footer class="white-section" id="footer">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
 
-  <!-- Press -->
+      <p>© Copyright SEF</p>
+    </footer>
 
-  <section id="press">
-    <img src="images/mtv-logo.png">
-    <img src="images/lbci-logo.png">
-  </section>
-
-
-  <!-- Pricing -->
-
-  <section class="white-section" id="pricing">
-
-    <h2>Packages</h2>
-    <p>Something interesting here...</p>
-
-
-    <h3>Package 1</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Package 2</h3>
-    <h2>$29 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Package 3</h3>
-    <h2>$49 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-  </section>
-
-
-  <!-- Call to Action -->
-
-  <section class="blue-section" id="cta">
-
-    <h3>The APP that your log needs.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
-  </section>
-
-
-  <!-- Footer -->
-
-  <footer class="white-section" id="footer">
-    <i class="social-icon fab fa-facebook-f"></i>
-    <i class="social-icon fab fa-twitter"></i>
-    <i class="social-icon fab fa-instagram"></i>
-    <i class="social-icon fas fa-envelope"></i>
-    
-    <p>© Copyright SEF</p>
-
-  </footer>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <!-- font Awesome Script -->
-  <script src="https://kit.fontawesome.com/23bad20d23.js" crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font Awesome Script -->
+    <script
+      src="https://kit.fontawesome.com/23bad20d23.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
