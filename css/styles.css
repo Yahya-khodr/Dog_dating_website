@@ -10,5 +10,26 @@
   padding: 4.5%;
 }
 .feature-title {
-   font-weight: bold;
+  font-weight: bold;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+
+#footer{
+  padding: 7% 15% 0;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+.social-icon {
+  margin:  0% 3% 3% ;
+  
+}
+.social-copy {
+  margin-bottom: 10%;
+  font-size: x-small;
 }
