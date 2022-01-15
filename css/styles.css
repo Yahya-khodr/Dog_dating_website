@@ -2,6 +2,7 @@
   background: #674bff;
 }
 
+
 .icon {
   color: #674bff;
 }
@@ -18,6 +19,13 @@
 .press-logo{
   width: 15%;
   padding: 1% 1%;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.price {
+  padding: 3% 2%;
 }
 
 #features {
@@ -46,7 +54,14 @@
   padding-top: 4%;
   color: #fff;
 }
+.big-font {
+  font-size: 3.5em;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fff;
+}
 
 .download-button {
   margin: 3% 2% 5% 0;
 }
+
