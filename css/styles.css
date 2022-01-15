@@ -19,17 +19,28 @@
   position: relative;
 }
 
-
-#footer{
+#footer {
   padding: 7% 15% 0;
   margin-bottom: 0;
   background-color: #fff;
 }
 .social-icon {
-  margin:  0% 3% 3% ;
-  
+  margin: 0% 2% 3% 2%;  /*  margin: top right bottom left */
+  text-align: center;
 }
 .social-copy {
   margin-bottom: 10%;
   font-size: x-small;
+}
+.cta-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: bold;
+  padding-top: 4%;
+  color: #fff;
+}
+
+.download-button{
+  margin: 3% 2% 5% 0;
 }
