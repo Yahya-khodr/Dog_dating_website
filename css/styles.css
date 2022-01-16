@@ -6,25 +6,22 @@
   padding-left: 10%;
 }
 
-
-
 .title-image {
-  width: 12%;
+  width: 25%;
   max-width: 250px;
   transform: rotate(25deg);
   transition: 0.31s;
   position: absolute;
-  right: 30%;
+  right: 25%;
 }
 .navbar-brand {
   font-family: cursive;
   font-weight: bold;
 }
-.navbar{
-  
+.navbar {
   padding: 0 0 4.5rem;
 }
-.nav-link{
+.nav-link {
   font-family: cursive;
   font-size: 1.2rem;
 }
@@ -71,6 +68,7 @@
 .social-icon {
   margin: 0% 2% 3% 2%; /*  margin: top right bottom left */
   text-align: center;
+  color: #292e32;
 }
 .social-copy {
   margin-bottom: 10%;
@@ -84,8 +82,8 @@
   color: #fff;
 }
 .big-font {
-  font-size: 3.5em;
-  line-height: 1.5;
+  font-size: 4em;
+  line-height:1.5 ;
   font-weight: bold;
   color: #fff;
 }
@@ -111,15 +109,14 @@
   color: white;
 }
 
-@media   (max-width:1024px){
-  .title-image{
+@media (max-width: 1024px) {
+  .title-image {
     width: 100%;
     position: static;
     transform: rotate(0deg);
   }
 
-  #title{
+  #title {
     text-align: center;
   }
 }
-
