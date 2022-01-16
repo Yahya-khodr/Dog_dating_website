@@ -7,6 +7,7 @@
   background: #fff;
 }
 
+
 .big-font {
   font-size: 2.5em;
   line-height: 1.5;
@@ -42,11 +43,11 @@
 /* title section  */
 .title-image {
   width: 25%;
-  max-width: 250px;
+  max-width: 400px;
   transform: rotate(25deg);
   transition: 0.31s;
   position: absolute;
-  right: 25%;
+  right: 20%;
 }
 
 /* features section  */
@@ -135,6 +136,8 @@
 @media (max-width: 750px) {
   .title-image {
     width: auto;
+    margin: 0%;
+    padding: 0%;
     position: static;
     transform: rotate(0);
   }
