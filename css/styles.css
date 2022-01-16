@@ -3,10 +3,24 @@
 }
 
 
+.title-image {
+  width: 12%;
+  max-width: 250px;
+  transform: rotate(25deg);
+  transition: 0.31s;
+  position: absolute;
+  right: 30%;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
 .icon {
   color: #674bff;
 }
-
 
 .feature-element {
   padding: 4.5%;
@@ -17,7 +31,7 @@
 #press {
   padding-bottom: 3%;
 }
-.press-logo{
+.press-logo {
   width: 15%;
   padding: 1% 1%;
 }
@@ -66,11 +80,10 @@
   margin: 3% 2% 5% 0;
 }
 
-
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
-.testimonial-image{
+.testimonial-image {
   width: 15%;
   border-radius: 125%;
   margin: 20px;
@@ -83,3 +96,16 @@
 .testimonial-subtitle {
   color: white;
 }
+
+@media   (max-width:1024px){
+  .title-image{
+    width: 100%;
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
