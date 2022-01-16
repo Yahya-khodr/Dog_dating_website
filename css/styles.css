@@ -8,7 +8,7 @@
 }
 
 .big-font {
-  font-size: 4em;
+  font-size: 2.5em;
   line-height: 1.5;
   font-weight: bold;
   color: #fff;
@@ -132,11 +132,11 @@
   font-size: small;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 750px) {
   .title-image {
-    width: 100%;
+    width: auto;
     position: static;
-    transform: rotate(0deg);
+    transform: rotate(0);
   }
 
   #title {
