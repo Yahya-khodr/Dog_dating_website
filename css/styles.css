@@ -1,19 +1,29 @@
+/* global styles  */
+
 .blue-section {
   background: #674bff;
 }
+.white-section {
+  background: #fff;
+}
+
+.big-font {
+  font-size: 4em;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fff;
+}
+
+.download-button {
+  margin: 3% 2% 5% 0;
+}
+/* title  */
 
 #title {
   padding-left: 10%;
 }
+/* navbar section  */
 
-.title-image {
-  width: 25%;
-  max-width: 250px;
-  transform: rotate(25deg);
-  transition: 0.31s;
-  position: absolute;
-  right: 25%;
-}
 .navbar-brand {
   font-family: cursive;
   font-weight: bold;
@@ -29,6 +39,23 @@
   padding-right: 25%;
 }
 
+/* title section  */
+.title-image {
+  width: 25%;
+  max-width: 250px;
+  transform: rotate(25deg);
+  transition: 0.31s;
+  position: absolute;
+  right: 25%;
+}
+
+/* features section  */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
 .icon {
   color: #674bff;
 }
@@ -39,6 +66,9 @@
 .feature-title {
   font-weight: bold;
 }
+
+/* press section  */
+
 #press {
   padding-bottom: 3%;
 }
@@ -46,51 +76,8 @@
   width: 15%;
   padding: 1% 1%;
 }
-#pricing {
-  padding: 100px;
-  text-align: center;
-}
-.price {
-  padding: 3% 2%;
-}
 
-#features {
-  padding: 7% 15%;
-  background-color: #fff;
-  position: relative;
-}
-
-#footer {
-  padding: 7% 15% 0;
-  margin-bottom: 0;
-  background-color: #fff;
-}
-.social-icon {
-  margin: 0% 2% 3% 2%; /*  margin: top right bottom left */
-  text-align: center;
-  color: #292e32;
-}
-.social-copy {
-  margin-bottom: 10%;
-  font-size: small;
-}
-.cta-title {
-  font-size: 3.5em;
-  line-height: 1.5;
-  font-weight: bold;
-  padding-top: 4%;
-  color: #fff;
-}
-.big-font {
-  font-size: 4em;
-  line-height:1.5 ;
-  font-weight: bold;
-  color: #fff;
-}
-
-.download-button {
-  margin: 3% 2% 5% 0;
-}
+/* testimonial section  */
 
 .carousel-item {
   padding: 7% 15%;
@@ -107,6 +94,42 @@
 }
 .testimonial-subtitle {
   color: white;
+}
+
+/* pricing section  */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.price {
+  padding: 3% 2%;
+}
+
+/* call to action section  */
+
+.cta-title {
+  font-size: 3.5em;
+  line-height: 1.5;
+  font-weight: bold;
+  padding-top: 4%;
+  color: #fff;
+}
+
+/* footer section */
+
+#footer {
+  padding: 7% 15% 0;
+  margin-bottom: 0;
+}
+.social-icon {
+  margin: 0% 2% 3% 2%; /*  margin: top right bottom left */
+  text-align: center;
+  color: #292e32;
+}
+.social-copy {
+  margin-bottom: 10%;
+  font-size: small;
 }
 
 @media (max-width: 1024px) {
