@@ -2,6 +2,11 @@
   background: #674bff;
 }
 
+#title {
+  padding-left: 10%;
+}
+
+
 
 .title-image {
   width: 12%;
@@ -11,11 +16,20 @@
   position: absolute;
   right: 30%;
 }
-.navbar {
+.navbar-brand {
+  font-family: cursive;
+  font-weight: bold;
+}
+.navbar{
+  
   padding: 0 0 4.5rem;
 }
-.nav-item {
-  padding: 0 18px;
+.nav-link{
+  font-family: cursive;
+  font-size: 1.2rem;
+}
+.navbar-nav {
+  padding-right: 25%;
 }
 
 .icon {
