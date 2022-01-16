@@ -1,5 +1,9 @@
 /* global styles  */
 
+
+html {
+  scroll-behavior: smooth;
+}
 .blue-section {
   background: #674bff;
 }
