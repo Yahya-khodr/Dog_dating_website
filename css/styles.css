@@ -1,6 +1,5 @@
 /* global styles  */
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -11,12 +10,12 @@ html {
   background: #fff;
 }
 
-
 .big-font {
   font-size: 2.5em;
   line-height: 1.5;
   font-weight: bold;
   color: #fff;
+  margin-top: 10%;
 }
 
 .download-button {
@@ -47,11 +46,12 @@ html {
 /* title section  */
 .title-image {
   width: 25%;
-  max-width: 400px;
+  max-width: 250px;
   transform: rotate(25deg);
   transition: 0.31s;
   position: absolute;
-  right: 20%;
+  right: 15%;
+  padding-top: 5%;
 }
 
 /* features section  */
@@ -140,8 +140,7 @@ html {
 @media (max-width: 750px) {
   .title-image {
     width: auto;
-    margin: 0%;
-    padding: 0%;
+    max-width: 400px;
     position: static;
     transform: rotate(0);
   }
