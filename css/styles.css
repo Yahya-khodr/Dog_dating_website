@@ -38,7 +38,7 @@ html {
 }
 
 .nav-link {
-  font-family: cursive;
+  font-family: poppins sans-serif;
   font-size: 1.2rem;
 }
 .navbar-nav {
@@ -152,6 +152,7 @@ html {
     padding: 0%;
   }
   .big-font {
+    margin-top: auto;
     width: auto;
   }
   .cta-title {
@@ -159,5 +160,11 @@ html {
   }
   .container-fluid {
     padding: 3% 15% !important;
+  }
+  .download-button {
+    margin-bottom: 0%;
+  }
+  .navbar-nav {
+    padding: 0%;
   }
 }
