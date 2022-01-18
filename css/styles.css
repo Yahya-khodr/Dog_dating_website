@@ -3,6 +3,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 .blue-section {
   background: #674bff;
 }
@@ -25,6 +26,7 @@ html {
 
 #title {
   padding-left: 10%;
+  height: 50vh;
 }
 /* navbar section  */
 
@@ -32,6 +34,7 @@ html {
   font-family: cursive;
   font-weight: bold;
 }
+
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -40,7 +43,7 @@ html {
   font-size: 1.2rem;
 }
 .navbar-nav {
-  padding-right: 25%;
+  padding-right: 15%;
 }
 
 /* title section  */
@@ -50,8 +53,7 @@ html {
   transform: rotate(25deg);
   transition: 0.31s;
   position: absolute;
-  right: 15%;
-  padding-top: 5%;
+  right: 20%;
 }
 
 /* features section  */
@@ -147,5 +149,6 @@ html {
 
   #title {
     text-align: center;
+    height: auto;
   }
 }
