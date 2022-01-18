@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
 
 /* global styles  */
-* {
-  box-sizing: border-box;
-}
+
 html {
   scroll-behavior: smooth;
 }
@@ -39,9 +37,6 @@ html {
   font-weight: bold;
 }
 
-.navbar {
-  padding: 0 0 4.5rem;
-}
 .nav-link {
   font-family: cursive;
   font-size: 1.2rem;
@@ -143,7 +138,7 @@ html {
   font-size: small;
 }
 
-@media screen and (max-width: 1028px) {
+@media screen and (max-width: 1024px) {
   .title-image {
     width: auto;
     max-width: 400px;
@@ -154,8 +149,15 @@ html {
   #title {
     text-align: center;
     height: auto;
+    padding: 0%;
   }
   .big-font {
     width: auto;
+  }
+  .cta-title {
+    font-size: 2.5rem;
+  }
+  .container-fluid {
+    padding: 3% 15% !important;
   }
 }
